@@ -37,3 +37,41 @@ mv 파일이름 이동위치
 
 rm 파일 or 디렉토리
 -파일 or 디렉토리(rm -r) 삭제 
+
+echo
+-입력(stdin) 후 출력(stdout)
+
+cat
+- file내용 출력
+
+>
+-왼쪽에서 발생한 output을 오른쪽으로 리디렉트한다.
+
+>>
+-왼쪽에서 발생한 output을 오른쪽의 새로운 file or old file로 리디렉트한다.
+
+|
+-완료된 output을 다른 command 로 더 사용
+
+sort
+
+uniq
+-중복 필터
+
+grep 
+-텍스트 문장을 검색
+
+grep -i 
+-대 소 문자 구별 없이 검색
+
+grep -R 주소
+-해당 주소안 파일에서 검색후 출력
+
+grep -Rl 주소
+-텍스트 내용 생략후 출력
+
+sed 's/snow/rain' file
+-snow를 rain 변환 후 출력
+
+sed 's/snow/rain/g' file
+-모든 snow를 rain으로 변경 (만약에 한 문장에 snow가 2번 나오면 둘다 rain 변경)
