@@ -2,7 +2,8 @@
 
 #Basic Command (Linux)
 
->ls.
+>ls
+
 -현재 디렉토리에 포함된 파일 목록
 
 ls -alt
