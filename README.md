@@ -56,13 +56,13 @@
 
 >cat
 
-- file내용 출력
+-Print txt file 
 
->
+">
 
 -왼쪽에서 발생한 output을 오른쪽으로 리디렉트한다.
 
->>
+">>
 
 -왼쪽에서 발생한 output을 오른쪽의 새로운 file or old file로 리디렉트한다.
 
